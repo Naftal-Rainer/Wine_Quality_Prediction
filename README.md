@@ -2,9 +2,11 @@
 
 As a datascientist, you are required to find the quality of the wine using various chemical parameters such as acidity, sugar content etc
 
-### Work Flow
+## Work Flow
 
 - Acquire Data.
 - Analyse Data.
--Pre-Process Data
--Build Model
+- Pre-Process Data
+- Build Model
+
+For code explanation check the markdowns on the ipynb file
