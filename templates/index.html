@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{% block page_content %}
+
+    <div id="dataform">
+        <form action="/result" method="POST">
+
+            <label for="">Fixed Acidity</label>
+            <br>
+            <br>
+            <input type="number" name="F_acidity" id="">
+            <br>
+            <br>
+            <label for="">Volatile Acidity</label>
+            <br>
+            <br>
+            <input type="number" name="V_acidity" id="">
+            <br>
+            <br>
+            <label for="">Citric Acid</label>
+            <br>
+            <br>
+            <input type="number" name="C_Acid" id="">
+            <br>
+            <br>
+            <label for="">Residual Sugar</label>
+            <br>
+            <br>
+            <input type="number" name="R_Sugars" id="">
+            <br>
+            <br>
+            <label for="">Chlorides</label>
+            <br>
+            <br>
+            <input type="number" name="chlorides" id="">
+            <br>
+            <br>
+            <label for="">Free Sulphur Dioxide</label>
+            <br>
+            <br>
+            <input type="number" name="F_sulphur" id="">
+            <br>
+            <br>
+            <label for="">Total Sulphur Dioxide</label>
+            <br>
+            <br>
+            <input type="number" name="T_sulphur" id="">
+            <br>
+            <br>
+            <label for="">Density</label>
+            <br>
+            <br>
+            <input type="number" name="density" id="">
+            <br>
+            <br>
+            <label for="">pH</label>
+            <br>
+            <br>
+            <input type="number" name="pH" id="">
+            <br>
+            <br>
+            <label for="">Sulphates</label>
+            <br>
+            <br>
+            <input type="number" name="sulphates" id="">
+            <br>
+            <br>
+            <label for="">Alcohol</label>
+            <br>
+            <br>
+            <input type="number" name="alcohol" id="">
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    {% endblock %}
+ 

@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    {% block head %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine Quality</title>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'style.css')}}">
+    {% endblock %}
+</head>
+<body>
+
+    <div>
+        <header id="Intro">
+            <h1>Wine Quality Prediction</h1>
+        </header>
+    </div>
+
+    {% block page_content %}
+
+    {% endblock %}
+
+
+    <div id="foot">
+        <footer>
+            <p>&copy; 2022</p>
+        </footer>
+    </div>
+</body>
+</html>
