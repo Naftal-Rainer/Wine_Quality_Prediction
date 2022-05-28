@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+html{
+    background-image: url('images6.jfif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: border-box;
+    background-size: cover;
+}
+
 body{
     width: 100%;
 }
@@ -25,10 +33,10 @@ body{
 
 #dataform{
     border: 2px solid rgba(71, 71, 136, 0.452);
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
     margin: auto;
-    background-color: rgb(122, 214, 214);
+    background-color: rgb(122, 214, 214,0.8);
     width: auto;
     width: 60%;
 }
