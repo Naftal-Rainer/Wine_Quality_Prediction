@@ -1,9 +1,7 @@
 from flask import Flask, render_template, request
 import wine_Quality
 
-app = Flask(__name__)
-
-app.config['SECRET_KEY'] = '123456781'
+app = Flask(__name__, static_url_path='/static')
 
 @app.route('/')
 def index():
